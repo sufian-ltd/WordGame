@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/aa"
+    tools:context=".CreditActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/d1"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Developed By Abu Sufian"
+        android:layout_margin="5dp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="BSc in Computer Science Engineering"
+        android:layout_margin="5dp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Cell:01876639192 Gmail:sufianmax5@gmail.com Facebook:www.facebook.com/Sufian Vhaiya"
+        android:layout_margin="5dp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+</LinearLayout>
